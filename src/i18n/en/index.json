@@ -1,0 +1,8 @@
+{
+  "starts-in": "starts in",
+  "seconds_interval": "(0)[seconds];(1)[second];(2-inf)[seconds]; ",
+  "minutes_interval": "(0)[minutes];(1)[minute];(2-inf)[minutes]",
+  "hours_interval": "(0)[hours];(1)[hour];(2-inf)[hours]",
+  "days_interval": "(0)[days];(1)[day];(2-inf)[days]",
+  "months_interval": "(0)[months];(1)[month];(2-inf)[months]"
+}
