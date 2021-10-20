@@ -49,7 +49,7 @@ export default function Countdown(props: CountdownProps): JSX.Element {
   }, [deadline, includeMonths]);
 
   return (
-    <CountdownContainer>
+    <CountdownContainer data-testid={"countdown-container"}>
       <EndTitle>{t("starts-in")}</EndTitle>
       <CountdownPlateWrapper>
         {Object.keys(timeRemainingState).map((key) => {

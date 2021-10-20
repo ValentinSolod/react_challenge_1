@@ -35,8 +35,10 @@ export default function CountdownTimePlate(
   const { t } = useTranslation();
 
   return (
-    <CountdownPlate>
-      <CountdownTime>{countTime}</CountdownTime>
+    <CountdownPlate data-testid={"countdown-plate-container"}>
+      <CountdownTime data-testid={`countdown-${countText}`}>
+        {countTime}
+      </CountdownTime>
       <CountdownText>
         {t(`${countText}_interval`, {
           postProcess: "interval",

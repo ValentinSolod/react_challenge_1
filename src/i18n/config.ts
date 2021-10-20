@@ -13,3 +13,5 @@ i18n.use(initReactI18next).use(intervalPlural).init({
   lng: "en",
   resources,
 });
+
+export default i18n;
